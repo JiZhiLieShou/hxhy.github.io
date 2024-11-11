@@ -7,8 +7,7 @@ tags:
  - Ssh
 permalink: /article/hslsibtp/
 ---
-> 如何利用服务器进行远程开发？
->
+`如何利用服务器进行远程开发？`
 
 @[bilibili](BV1Dp2qY1EhA)
 

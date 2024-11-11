@@ -7,8 +7,7 @@ tags:
  - Cuda
 permalink: /article/5as7rxt6/
 ---
-> 如何在linux服务器中配置深度学习环境？
->
+`如何在linux服务器中配置深度学习环境？`
 
 @[bilibili](BV1bs2qY5EZb)
 
