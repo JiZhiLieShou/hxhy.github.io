@@ -23,7 +23,7 @@ export default defineUserConfig({
        */
       shiki: {
           //  强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-        languages: ['c', 'java', 'python', 'vue', 'tex', 'bash', 'shell', 'typescript', 'javascript'],
+        languages: ['c', 'java', 'python', 'vue', 'md', 'tex', 'bash', 'shell', 'typescript', 'javascript'],
       },
 
       /**
@@ -58,12 +58,12 @@ export default defineUserConfig({
        *  markdown power
        * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
        */
-      // markdownPower: {
-      //   pdf: true,
+      markdownPower: {
+        pdf: true,
       //   caniuse: true,
       //   plot: true,
-      //   bilibili: true,
-      //   youtube: true,
+        bilibili: true,
+        youtube: true,
       //   icons: true,
       //   codepen: true,
       //   replit: true,
@@ -74,7 +74,7 @@ export default defineUserConfig({
       //     rust: true,
       //     kotlin: true,
       //   },
-      // },
+      },
 
       /**
       * markdownMath
