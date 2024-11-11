@@ -13,7 +13,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     // 部署域名
-    // hostname: 'https://jizhilieshou.github.io/plume-blog.github.io/',
+    // hostname: 'https://url/',
     
     // 对主题内部使用的插件进行自定义配置
     plugins: {
