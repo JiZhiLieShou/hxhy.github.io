@@ -5,8 +5,6 @@ tags:
  - Docker
 permalink: /article/uq298mnj/
 ---
-# Docker指南
-
 `官方安装指南（推荐）：https://docs.docker.com/engine/install/centos/`
 
 ## 卸载旧版docker

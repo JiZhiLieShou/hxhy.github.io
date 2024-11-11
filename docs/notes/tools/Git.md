@@ -5,8 +5,6 @@ tags:
  - Git
 permalink: /article/ggf5l5hc/
 ---
-# Git
-
 ## git使用方式
 
 - 命令行

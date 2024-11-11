@@ -5,8 +5,6 @@ tags:
  - Latex
 permalink: /article/wjc42k8a/
 ---
-# LaTex使用方法
-
 [大佬LaTeX 进阶教程 (lierhua.top)](https://latex.lierhua.top/zh/)
 
 [LaTeX公式手册(全网最全) - 樱花赞 - 博客园 (cnblogs.com)](https://www.cnblogs.com/1024th/p/11623258.html)

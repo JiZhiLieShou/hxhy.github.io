@@ -5,8 +5,6 @@ tags:
  - Python
 permalink: /article/uc857ooo/
 ---
-# PYTHON基础
-
 `Python3源码文件默认以UTF-8编码，所有字符串都是unicode字符串。`
 
 ## 导入库

@@ -7,8 +7,6 @@ tags:
   - Javascript
 permalink: /article/qr7xo89t/
 ---
-# Html与css学习记录
-
 ## HTML【页面骨架】
 
 `超文本标记语言（HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。`

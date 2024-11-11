@@ -5,8 +5,6 @@ tags:
  - Linux
 permalink: /article/nsj3h0d4/
 ---
-# Linux学习记录
-
 ## 环境搭建
 
 ### linux环境

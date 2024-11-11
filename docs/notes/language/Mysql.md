@@ -5,8 +5,6 @@ tags:
  - Mysql
 permalink: /article/h6np1l13/
 ---
-# MYSQL学习记录--关系型数据库
-
 ## 下载与安装
 
 ### 下载

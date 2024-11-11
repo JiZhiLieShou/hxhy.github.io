@@ -3,10 +3,8 @@ title: Vue
 createTime: 2024/11/10 18:40:14
 tags:
   - vue
-permalink: /article/po6l7o4k/
+permalink: /framework/tmq3adgm/
 ---
-# VUE
-
 ## 开发环境
 
 1. `node.js`-version>=15.0
