@@ -1,5 +1,5 @@
 ---
-title: Python_Modules
+title: Pypi
 createTime: 2024/09/15 11:33:32
 tags:
  - pip
