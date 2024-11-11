@@ -204,10 +204,101 @@ https://www.bilibili.com/video/BV1HM411377j?p=19
 
 ![image-20240915105452193](./Git.assets/image-20240915105452193.png)
 
+## git设置全局代理
+
+`防止推送不成功，如：github`
+
+### git两种配置方式
+
+查看git配置
+
+```bash
+git config --list
+git config --global --list
+```
+
+需要设置的代理
+
+```bash
+HTTP 形式：git clone https://github.com/PBK-B/test.git
+SSH 形式：git clone git@github.com:PBK-B/test.git
+```
+
+### Http形式
+
+#### **走 HTTP 代理**
+
+```bash
+git config --global http.proxy "http://127.0.0.1:8080"
+git config --global https.proxy "http://127.0.0.1:8080"
+```
+
+#### **走 socks5 代理（如 小飞机 or V2xxxx）**
+
+```bash
+git config --global http.proxy "socks5://127.0.0.1:1080"
+git config --global https.proxy "socks5://127.0.0.1:1080"
+```
+
+#### **取消设置**
+
+```bash
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+### Ssh形式
+
+修改 `~/.ssh/config` 文件（不存在则新建）：
+
+```bash
+# 必须是 github.com
+Host github.com
+   HostName github.com
+   User git
+   # 走 HTTP 代理
+   # ProxyCommand socat - PROXY:127.0.0.1:%h:%p,proxyport=8080
+   # 走 socks5 代理（如小飞机 or V2xxx）
+   # ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
+```
+
+对于 Windows 用户，要使用 socks5 代理却没有 nc 的，可以将
+
+```bash
+ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
+换成
+ProxyCommand connect -S 127.0.0.1:1080 %h %p
+```
+
+配合上面的修改，我这里分享一个我的自用 Linux 一键切换脚本，将下面代码写入 ~/.bash_profile（其他 bash 程序或电脑系统可能路径不太一样）
+
+```bash
+function github_on() {
+    cat "${HOME}/.ssh/config" >"${HOME}/.ssh/config_back" # 先备份
+    config=$(cat ${HOME}/.ssh/config_back | sed 's/\# ProxyCommand/ProxyCommand/g')
+    echo -e "${config}" >"${HOME}/.ssh/config" && echo -e "\033[36mGithub 已上代理！\033[0m"
+}
+ 
+function github_off() {
+    cat "${HOME}/.ssh/config" >"${HOME}/.ssh/config_back" # 先备份
+    config=$(cat ${HOME}/.ssh/config_back | sed 's/    ProxyCommand/    \# ProxyCommand/g')
+    echo -e "${config}" >"${HOME}/.ssh/config" && echo -e "\033[33mGithub 停止代理！\033[0m"
+}
+```
+
+写完之后运行 ` source ~/.bash_profile `使配置文件生效，使用下面的指令就可以很爽的用啦
+
+```bash
+github_on	# 启动
+github_off	# 关闭
+```
+
 ## 更新笔记流程
 
 ```bash
+pnpm docs:dev	# 检查错误并更新fortmatter
 git add .	# 更新暂存区
+
 git commit -m "更新描述"	# 提交暂存区文件
 git push	# push到远程仓库
 ```
