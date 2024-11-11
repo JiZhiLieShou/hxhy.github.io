@@ -12,7 +12,10 @@ permalink: /article/5as7rxt6/
 
 @[bilibili](BV1bs2qY5EZb)
 
-## 开局一条命令，如何在服务器配置环境并接入下载好的cuda？
+---
+
+## 代码如下：
+
 
 ```
 ssh spa@10.201.8.249

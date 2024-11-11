@@ -12,6 +12,10 @@ permalink: /article/hslsibtp/
 
 @[bilibili](BV1Dp2qY1EhA)
 
+---
+
+## 代码如下：
+
 ```
 ssh spa@10.201.8.249
 密码：123456a
