@@ -1,8 +1,6 @@
 ---
-title: READ
+title: 读书笔记
 createTime: 2024/11/10 14:53:24
 permalink: /notes/read/
 ---
-
-我的阅读笔记
 
