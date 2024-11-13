@@ -20,5 +20,5 @@ config:
         -
           theme: alt
           text: Github ->
-          link: https://github.com/JiZhiLieShou
+          link: https://github.com/HuiXiaHeYu
 ---
