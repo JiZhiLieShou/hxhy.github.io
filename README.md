@@ -1,18 +1,16 @@
-# Hi,I'm 绘夏合羽
+# 个人博客
+**HeiXiaHeYu.github.io** is an amazing ✨repository✨ to record my life.
 
-TypeScript enthusiast, Python user, Deep Learning & Vue beginner
+使用 [VuePress2](https://vuejs.press/zh/) 与 [VuePress Theme Plume](https://pengzhanbo.cn/vuepress-theme-plume/) 搭建的个人博客
+[https://HeiXiaHeYu.github.io](https://HeiXiaHeYu.github.io)
 
-[🌐 Website](https://HuiXiaHeYu.github.io) · [📚 Blog](https://HuiXiaHeYu.github.io/blog/) · [📇 Contact](mailto:1912452912@qq.com)
+- 🔭 I’m currently working on DLNU university.
+- 🌱 I’m currently learning Deep learning
+- 👯 I’m looking to collaborate on Deep learning
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about Deep learning
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
 
 
-### Tech stack
-
-<picture><img src="https://skillicons.dev/icons?i=js,pytorch,linux,vue,latex"></picture>
-
-### Tools I use
-
-<picture><img src="https://skillicons.dev/icons?i=vscode,anaconda,ubuntu,qt,git,githubactions,docker,pnpm"></picture>
-
-# 请我喝杯咖啡
-
-<img src="./docs/.vuepress/public/images/Coffee-QR-code.png" style="zoom: 33%;" />
