@@ -27,7 +27,7 @@ export default defineThemeConfig({
   notes,
   social: [
     { icon: 'bilibili', link: 'https://space.bilibili.com/688597448' },
-    { icon: 'github', link: 'https://github.com/JiZhiLieShou' },
+    { icon: 'github', link: 'https://github.com/HuiXiaHeYu' },
     
   ],
 })
