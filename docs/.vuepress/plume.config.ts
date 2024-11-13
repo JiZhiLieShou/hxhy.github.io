@@ -6,7 +6,7 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'plume.svg',
+  logo: './images/logo[32x32].ico',
   // 你的 git repo 链接
   // docsRepo: '',
   // docsDir: 'docs',
@@ -14,7 +14,7 @@ export default defineThemeConfig({
   appearance: true,
 
   profile: {
-    avatar: 'avatar.jpg',
+    avatar: './images/avatar.jpg',
     name: '绘夏合羽',
     description: '🏆2022年奥林匹克杯获得者',
     circle: true,

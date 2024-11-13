@@ -11,7 +11,7 @@ config:
     hero:
       name: 绘夏合羽
       tagline: Graduate students in deep learning.
-      text: 御剑于心，闲听风吟，行至天涯，不改初衷。
+      text: 御剑于心，且听风吟
       actions:
         -
           theme: brand

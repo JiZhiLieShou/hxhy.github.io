@@ -1,42 +1,18 @@
-# my-vuepress-site
+# Hi,I'm 绘夏合羽
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+TypeScript enthusiast, Python user, Deep Learning & Vue beginner
 
-## Install
+[🌐 Website](https://HuiXiaHeYu.cn) · [📚 Blog](https://HuiXiaHeYu.cn/blog/) · [📇 Contact](mailto:1912452912@qq.com)
 
-```sh
-pnpm i
-```
 
-## Usage
+### Tech stack
 
-```sh
-# start dev server
-pnpm docs:dev
-# build for production
-pnpm docs:build
-# preview production build in local
-pnpm docs:preview
-# update vuepress and theme
-pnpm vp-update
-```
+<picture><img src="https://skillicons.dev/icons?i=js,pytorch,linux,vue,latex"></picture>
 
-## Deploy to GitHub Pages
+### Tools I use
 
-The plume theme has been created with GitHub Actions: `.github/workflows/docs-deploy.yml`. You also need to make the following settings in the GitHub repository:
+<picture><img src="https://skillicons.dev/icons?i=vscode,anaconda,ubuntu,qt,git,githubactions,docker,pnpm"></picture>
 
-- [ ] `settings > Actions > General`, Scroll to the bottom of the page, under `Workflow permissions`, check `Read and write permissions`, and click the save button.
+# 请我喝杯咖啡
 
-- [ ] `settings > Pages`, In `Build and deployment`, select `Deploy from a branch` for `Source`, choose `gh-pages` for `Branch`, and click the save button.
-  (The `gh-pages` branch may not exist upon first creation. You can complete the above setup first, push the code to the main branch, wait for `github actions` to finish, and then proceed with the setup.)
-
-- [ ] Modify the `base` option in `docs/.vuepress/config.ts`:
-  - If you are planning to deploy to `https://<USERNAME>.github.io/`, you can skip this step as `base` defaults to `"/"`.
-  - If you are planning to deploy to `https://<USERNAME>.github.io/<REPO>/`, meaning your repository URL is `https://github.com/<USERNAME>/<REPO>`, set `base` to `"/<REPO>/"`.
-
-To customize a domain name, please refer to [Github Pages](https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
-
-## Documents
-
-- [vuepress](https://vuepress.vuejs.org/)
-- [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+<img src="./docs/.vuepress/public/images/Coffee-QR-code.png" style="zoom: 33%;" />

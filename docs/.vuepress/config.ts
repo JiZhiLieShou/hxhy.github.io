@@ -6,8 +6,9 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'My Blog',
-  description: '这是我的第一个 vuepress 站点',
+  title: '绘夏合羽',
+  head: [['link', { rel: 'icon', href: './images/logo[32x32].ico'}]],
+  description: '绘夏合羽的 vuepress 站点',
 
   bundler: viteBundler(),
 
@@ -118,4 +119,5 @@ export default defineUserConfig({
       // },
     },
   }),
+
 })
