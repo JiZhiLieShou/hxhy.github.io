@@ -2,7 +2,7 @@
 
 TypeScript enthusiast, Python user, Deep Learning & Vue beginner
 
-[🌐 Website](https://HuiXiaHeYu.cn) · [📚 Blog](https://HuiXiaHeYu.cn/blog/) · [📇 Contact](mailto:1912452912@qq.com)
+[🌐 Website](https://HuiXiaHeYu.github.io) · [📚 Blog](https://HuiXiaHeYu.github.io/blog/) · [📇 Contact](mailto:1912452912@qq.com)
 
 
 ### Tech stack
