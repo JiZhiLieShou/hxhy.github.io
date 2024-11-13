@@ -3,7 +3,7 @@ title: C
 createTime: 2023/08/08 10:41:00
 tags:
   - C/C++
-permalink: /article/0hm3jpg2/
+permalink: /notes/language/0hm3jpg2/
 ---
 ## 分支和循环语句
 

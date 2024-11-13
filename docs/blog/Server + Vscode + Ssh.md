@@ -1,5 +1,5 @@
 ---
-title: Server + Vscode + Ssh
+title: 配置教程：Server + Vscode + Ssh
 createTime: 2024/11/11 12:01:28
 tags:
  - Server

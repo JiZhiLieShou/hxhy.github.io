@@ -1,7 +1,6 @@
 ---
-title: Language
-createTime: 2024/11/10 18:37:22
-permalink: /language/
+title: language
+createTime: 2024/11/12 12:27:50
+permalink: /notes/language/
 ---
-
-各种语言学习笔记。
+各类语言学习笔记。

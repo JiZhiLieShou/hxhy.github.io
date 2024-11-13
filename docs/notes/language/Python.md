@@ -3,7 +3,7 @@ title: Python
 createTime: 2024/01/04 18:21:59
 tags:
  - Python
-permalink: /article/uc857ooo/
+permalink: /notes/language/uc857ooo/
 ---
 `Python3源码文件默认以UTF-8编码，所有字符串都是unicode字符串。`
 

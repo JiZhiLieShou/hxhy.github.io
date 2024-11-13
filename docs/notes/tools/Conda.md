@@ -3,7 +3,7 @@ title: Conda
 createTime: 2024/11/10 17:38:00
 tags:
  - Conda
-permalink: /article/wgrxfh9w/
+permalink: /notes/tools/wgrxfh9w/
 ---
 ## 控制台进入Conda prompt
 

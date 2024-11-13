@@ -3,7 +3,7 @@ title: Latex
 createTime: 2024/05/30 03:19:00
 tags:
  - Latex
-permalink: /article/wjc42k8a/
+permalink: /notes/language/wjc42k8a/
 ---
 [大佬LaTeX 进阶教程 (lierhua.top)](https://latex.lierhua.top/zh/)
 

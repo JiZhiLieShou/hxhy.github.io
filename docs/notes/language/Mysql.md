@@ -3,7 +3,7 @@ title: Mysql
 createTime: 2024/11/10 17:37:59
 tags:
  - Mysql
-permalink: /article/h6np1l13/
+permalink: /notes/language/h6np1l13/
 ---
 ## 下载与安装
 

@@ -5,7 +5,7 @@ tags:
   - Html
   - Css
   - Javascript
-permalink: /article/qr7xo89t/
+permalink: /notes/language/qr7xo89t/
 ---
 ## HTML【页面骨架】
 

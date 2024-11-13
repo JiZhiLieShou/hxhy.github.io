@@ -3,7 +3,7 @@ title: Auto.js
 createTime: 2023/06/19 14:09:58
 tags:
  - Auto.js
-permalink: /framework/qrquut4t/
+permalink: /notes/framework/qrquut4t/
 ---
 ## 致-我的来时路
 

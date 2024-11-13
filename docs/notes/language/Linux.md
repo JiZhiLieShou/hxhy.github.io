@@ -3,7 +3,7 @@ title: Linux
 createTime: 2024/11/10 17:38:00
 tags:
  - Linux
-permalink: /article/nsj3h0d4/
+permalink: /notes/language/nsj3h0d4/
 ---
 ## 环境搭建
 
@@ -1141,6 +1141,14 @@ uname -r	# 查看服务器内核版本号
 `当前网络连接`
 
 所有的网络连接，包括本地IP地址、远程IP地址、连接状态等信息
+
+### 关机
+
+```bash
+sudo shutdown -h now
+```
+
+
 
 ## 笔记本
 

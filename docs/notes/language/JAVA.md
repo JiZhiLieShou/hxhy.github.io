@@ -3,7 +3,7 @@ title: Java
 createTime: 2024/11/10 17:38:00
 tags:
  - Java
-permalink: /article/xoczbu80/
+permalink: /notes/language/xoczbu80/
 ---
 ## 环境配置
 

@@ -3,7 +3,7 @@ title: Pypi
 createTime: 2024/09/15 11:33:32
 tags:
  - pip
-permalink: /article/kiygdb9p/
+permalink: /notes/others/kiygdb9p/
 ---
 ## Numpy
 

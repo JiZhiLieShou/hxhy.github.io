@@ -3,7 +3,7 @@ title: Docker
 createTime: 2024/11/10 17:38:00
 tags:
  - Docker
-permalink: /article/uq298mnj/
+permalink: /notes/tools/uq298mnj/
 ---
 `官方安装指南（推荐）：https://docs.docker.com/engine/install/centos/`
 

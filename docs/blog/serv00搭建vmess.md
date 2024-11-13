@@ -1,5 +1,5 @@
 ---
-title: serv00搭建vmess
+title: 配置教程：serv00搭建vmess
 createTime: 2024/09/15 11:33:32
 tags:
   - Deploy
@@ -14,8 +14,6 @@ permalink: /article/pp7xmy9o/
 ### 获取账号密码
 
 `前往serv00官网注册账号,之后去邮箱获取到serv00发送来的地址和账号密码`
-
-![202403251702287](./serv00%E6%90%AD%E5%BB%BAvmess.assets/202403251702287-1725341380917-2.webp)
 
 ### 登录ssh
 

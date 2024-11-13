@@ -1,7 +1,7 @@
 ---
 title: READ
 createTime: 2024/11/10 14:53:24
-permalink: /read/
+permalink: /notes/read/
 ---
 
 我的阅读笔记

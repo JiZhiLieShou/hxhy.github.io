@@ -1,5 +1,5 @@
 ---
-title: Server + Pytorch
+title: 配置教程：Server + Pytorch
 createTime: 2024/11/11 11:55:17
 tags:
  - Server

@@ -3,7 +3,7 @@ title: Git
 createTime: 2024/11/10 17:38:00
 tags:
  - Git
-permalink: /article/ggf5l5hc/
+permalink: /notes/tools/ggf5l5hc/
 ---
 ## git使用方式
 

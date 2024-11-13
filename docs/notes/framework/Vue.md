@@ -3,7 +3,7 @@ title: Vue
 createTime: 2024/11/10 18:40:14
 tags:
   - vue
-permalink: /framework/tmq3adgm/
+permalink: /notes/framework/tmq3adgm/
 ---
 ## 开发环境
 
