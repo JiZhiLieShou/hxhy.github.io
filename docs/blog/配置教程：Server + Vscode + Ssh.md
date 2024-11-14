@@ -5,6 +5,7 @@ tags:
  - Server
  - Vscode
  - Ssh
+ - Deploy
 permalink: /article/hslsibtp/
 ---
 `如何利用服务器进行远程开发？`

@@ -5,6 +5,7 @@ tags:
  - Server
  - Pytorch
  - Cuda
+ - Deploy
 permalink: /article/5as7rxt6/
 ---
 `如何在linux服务器中配置深度学习环境？`
@@ -64,7 +65,7 @@ python -m pip install --upgrade pip # 更新pip
 
 ### 注意torch的cuda版本要适配，我这里的显卡版本最高支持到11.4，向下适配最近的是11.3版本cudatoolkit
 
-![376352d7b6d6692390e0de771400e4de](./Server%20+%20Pytorch.assets/376352d7b6d6692390e0de771400e4de.png)
+![376352d7b6d6692390e0de771400e4de](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9AServer%20+%20Pytorch.assets/376352d7b6d6692390e0de771400e4de.png)
 
 ```
 

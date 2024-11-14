@@ -1,8 +1,8 @@
 ---
 title: 配置教程：serv00搭建vmess
-createTime: 2024/09/15 11:33:32
+createTime: 2024/05/15 11:33:32
 tags:
-  - Deploy
+ - Deploy
 permalink: /article/pp7xmy9o/
 ---
 > 感谢秋水长天：`https://bs.openface.cc/2024/06/root-v2ray-serv00-vmess.html`
@@ -25,7 +25,7 @@ ssh 用户名@服务器地址
 ssh name@s2.serv00.com
 ```
 
-![ssh](./serv00%E6%90%AD%E5%BB%BAvmess.assets/202403251714060.webp)
+![ssh](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/202403251714060.webp)
 
 ## 开通端口、运行软件服务
 
@@ -33,17 +33,17 @@ ssh name@s2.serv00.com
 
 ### 开启运行软件服务
 
-![打开额外服务](./serv00%E6%90%AD%E5%BB%BAvmess.assets/202403251726603.webp)
+![打开额外服务](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/202403251726603.webp)
 
 ### 创建端口
 
 ==注意：==随机端口号（避免重复端口导致失败）
 
-![创建端口](./serv00%E6%90%AD%E5%BB%BAvmess.assets/202403251727386.webp)
+![创建端口](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/202403251727386.webp)
 
 记住端口号
 
-![记住端口号](./serv00%E6%90%AD%E5%BB%BAvmess.assets/202403251728890.webp)
+![记住端口号](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/202403251728890.webp)
 
 ## 安装linux版本v2ray
 
@@ -55,7 +55,7 @@ ssh name@s2.serv00.com
 uname -a	# 查看服务器系统
 ```
 
-![image-20240903134017195](./serv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903134017195.png)
+![image-20240903134017195](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903134017195.png)
 
 ### 下载、解压v2ray
 
@@ -63,7 +63,7 @@ uname -a	# 查看服务器系统
 
 官网`https://github.com/v2fly/v2ray-core/releases`找到系统版本对应的v2ray的zip链接并下载
 
-![image-20240903134458694](./serv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903134458694.png)
+![image-20240903134458694](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903134458694.png)
 
 ```sh
 cd ./domains/	# 我这边是有个domains的目录，根据你们服务器情况自行操作
@@ -95,7 +95,7 @@ curl ifconfig.me	# 获取服务器外网ip
 4. inbound -> settings -> clients -> id（更改为v2ray生成的uuid）
 5. inbound -> 加入字段streamSettings
 
-![image-20240903135747770](./serv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903135747770.png)
+![image-20240903135747770](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903135747770.png)
 
 ```json
 // Config file of V2Ray. This file follows standard JSON format, with comments support.
@@ -264,16 +264,16 @@ nohup ./v2ray run &	# 启动并保持后台运行（输出日志放在nohup.out�
 nohup ~/domains/v2ray/v2ray run &	# 添加定时任务
 ```
 
-![image-20240903141038062](./serv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903141038062.png)
+![image-20240903141038062](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903141038062.png)
 
-<img src="./serv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903140810974.png" alt="image-20240903140810974" style="zoom: 80%;" />
+<img src="./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903140810974.png" alt="image-20240903140810974" style="zoom: 80%;" />
 
 ## 代理软件配置
 
 ### v2ray
 
-<img src="./serv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903141345293.png" alt="image-20240903141345293" style="zoom:50%;" />
+<img src="./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/image-20240903141345293.png" alt="image-20240903141345293" style="zoom:50%;" />
 
 ### shadowrocket
 
-<img src="./serv00%E6%90%AD%E5%BB%BAvmess.assets/e1046d7dc8a435e9398d17949a2940c5.jpeg" alt="e1046d7dc8a435e9398d17949a2940c5" style="zoom: 33%;" />
+<img src="./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9Aserv00%E6%90%AD%E5%BB%BAvmess.assets/e1046d7dc8a435e9398d17949a2940c5.jpeg" alt="e1046d7dc8a435e9398d17949a2940c5" style="zoom: 33%;" />
