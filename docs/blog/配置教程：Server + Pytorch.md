@@ -32,8 +32,11 @@ bash Miniconda3-latest-Linux-x86_64.sh
 
 2. 配置conda源（二选一即可）【因为我这里已经配置过了，所以显示warning】
 
-```sh
+```bash
 . ~/.bashrc  # 激活配置文件
+```
+
+```sh
 # 清华源
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge 
@@ -67,8 +70,7 @@ python -m pip install --upgrade pip # 更新pip
 
 ![376352d7b6d6692390e0de771400e4de](./%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%9AServer%20+%20Pytorch.assets/376352d7b6d6692390e0de771400e4de.png)
 
-```
-
+```bash
 nvidia-smi  # 查看显卡
 # pytorch官网：https://pytorch.org/
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu113  # 下载torch包
@@ -80,8 +82,11 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 find /usr/local -name cuda  # 判断是否含有cuda-gpu
 ```
 
-```sh
+```bash
 vim ~/.bashrc
+```
+
+```sh
 # 添加统一的Cuda路径，以防万一为了方便维护cuda多个版本
 export PATH=/usr/local/cuda/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
@@ -110,7 +115,4 @@ mkdir Study
 4.开始使用
 
 """
-
-
-
 ```
