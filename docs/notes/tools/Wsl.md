@@ -1,7 +1,9 @@
 ---
-title: Wsl使用教程
-createTime: 2024/11/15 15:27:42
-permalink: /article/k25xr1d8/
+title: Wsl
+createTime: 2024/11/15 17:12:08
+tags:
+ - Wsl
+permalink: /notes/notes/tools/3h1meezc/
 ---
 > WSL说明文档：https://learn.microsoft.com/zh-cn/windows/wsl/
 >
@@ -51,5 +53,4 @@ wsl --set-default-version 2		# 设置使用的wsl版本为wsl2
 
 ## 细节设置
 
-<img src="./Wsl%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.assets/image-20241115161306438.png" alt="image-20241115161306438" style="zoom: 67%;" />
-
+<img src="./Wsl.assets/image-20241115161306438.png" alt="image-20241115161306438" style="zoom: 67%;" />
