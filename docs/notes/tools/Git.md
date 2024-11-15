@@ -295,9 +295,11 @@ github_off	# 关闭
 
 ```bash
 pnpm docs:dev	# 检查错误并更新fortmatter
-更改zha标签
-git add .	# 更新暂存区
-git commit -m "更新描述"	# 提交暂存区文件
-git push	# push到远程仓库
+更改文章标签
+git add .; git commit -m "更新描述"; git push
+
+>>> git add .	# 更新暂存区
+>>> git commit -m "更新描述"	# 提交暂存区文件
+>>> git push	# push到远程仓库
 ```
 
