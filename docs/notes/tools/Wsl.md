@@ -7,7 +7,7 @@ permalink: /notes/notes/tools/3h1meezc/
 ---
 > WSL说明文档：https://learn.microsoft.com/zh-cn/windows/wsl/
 >
-> 最完美的系统：Windows10 + Wsl2 + Ubuntu + Vscode 
+> 最完美的系统：`Windows10` + `Wsl2` + `Ubuntu` + `Vscode` 
 >
 > **优势**
 >
@@ -16,7 +16,7 @@ permalink: /notes/notes/tools/3h1meezc/
 > 3. 编程环境位于Ubuntu
 > 4. 写作环境位于Windows
 
-## Wsl更改
+## Wsl内核
 
 ### wsl内核安装
 
@@ -40,7 +40,7 @@ wsl -l -v		# 正在运行的wsl版本
 wsl --set-default-version 2		# 设置使用的wsl版本为wsl2
 ```
 
-## Windows开启
+## Windows功能开启
 
 `启动或关闭Windows功能`
 
