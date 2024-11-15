@@ -44,8 +44,9 @@ wsl --set-default-version 2		# 设置使用的wsl版本为wsl2
 
 `启动或关闭Windows功能`
 
-- 适用于linux的windows子系统
-- 虚拟机平台（wsl2基于此）
+1. Hyper-V
+2. 适用于linux的windows子系统
+3. 虚拟机平台（wsl2基于此）
 
 ## Microsoft安装ubuntu
 
